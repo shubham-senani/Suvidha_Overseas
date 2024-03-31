@@ -1,0 +1,25 @@
+.divider_title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  display: inline-block;
+  width: 15%; /* Adjust line length */
+  vertical-align: middle;
+  border-top: 2px solid #818181; /* Adjust line color and thickness */
+}
+.divider::before {
+  margin-right: 1em; /* Adjust spacing between line and text */
+}
+.divider::after {
+  margin-left: 1em; /* Adjust spacing between line and text */
+}
